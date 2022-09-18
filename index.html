@@ -21,6 +21,9 @@
         <script src="https://unpkg.com/vue@3"></script>
         <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
 
+        <!-- icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
         <style>
             .center_box{
                 position: fixed;
@@ -51,7 +54,7 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><b>สมัครสมาชิก</b></a>
+                        <a class="nav-link active" aria-current="page" href="#"><b>สมัคร</b></a>
                     </li>
                     
                     </ul>
@@ -62,8 +65,8 @@
             <div class="container d-flex" style="height: 2rem;"></div>
 
             <div class="container d-flex justify-content-center">
-                <div class="card mb-3" style="width: 40rem;">
-                    <div class="card-header text-bg-primary">•&nbsp;•&nbsp;•</div>
+                <div class="card mb-3" style="width: 40rem;opacity: 0.9">
+                    <div class="card-header" style="background-color: #70a7ff;font-size: 18px"><b><i class="fa-solid fa-circle" style="color: #ff5858;"></i>&nbsp;<i class="fa-solid fa-circle" style="color: #ff8e3b;"></i>&nbsp;<i class="fa-solid fa-circle" style="color: #26e600;"></i></div>
                     <div class="row g-0 text-bg-light">
                         <div class="col-md-3">
                           <center><img src="images/logo.png" class="img-fluid rounded-start" height="50px"><center>
@@ -92,29 +95,54 @@
             <div class="container d-flex" style="height: 2rem;"></div>
 
             <div class="container d-flex justify-content-center">
-                <div class="card mb-3" style="width: 40rem;">
-                    <div class="card-header text-bg-primary"><b>•&nbsp;•&nbsp;•&nbsp;&nbsp;สมัครสมาชิก</b></div>
+                <div class="card mb-3" style="width: 40rem;opacity: 0.9">
+                    <div class="card-header" style="background-color: #70a7ff;font-size: 20px;"><b><i class="fa-solid fa-circle" style="color: #ff5858;"></i>&nbsp;<i class="fa-solid fa-circle" style="color: #ff8e3b;"></i>&nbsp;<i class="fa-solid fa-circle" style="color: #26e600;"></i>&nbsp;&nbsp;สมัครสมาชิก</b></div>
                         <div class="card-body">
-                            <div class="mb-3 row justify-content-center align-items-center">
-                                <label for="staticEmail" class="col-sm-2 col-form-label"><b>ชื่อ</b></label>
-                                <div class="col-sm-6">
-                                  <input type="text" readonly class="form-control" id="staticEmail" v-model="myname">
+                                <div class="mb-3 row justify-content-center align-items-center">
+                                    <div class="row">
+                                    
+                                        <label for="staticEmail" class="col-sm-2 col-form-label" style="font-size: 20px;"><b>ชื่อ</b></label>
+                                        <div class="col-auto" style="width: 10rem;">
+                                            <input type="text" class="form-control" style="font-size: 20px;font-weight: bold;" value="นาย" readonly>
+                                        </div>
+                                        <div class="col-auto">
+                                            <input type="text" readonly class="form-control" id="staticEmail" style="font-size: 20px;font-weight: bold;" value="กรฤต แสงทอง">
+                                        </div>
+
+                                    </div>
                                 </div>
-                              </div>
-                              <div class="mb-3 row justify-content-center align-items-center">
-                                <label for="inputPassword" class="col-sm-2 col-form-label"><b>โรงเรียน</b></label>
-                                <div class="col-sm-6">
-                                  <input type="text" class="form-control" id="inputPassword" v-model="school">
+                                <div class="mb-3 row justify-content-center align-items-center">
+                                    <div class="row">
+
+                                        <label for="inputPassword" class="col-sm-2 col-form-label" style="font-size: 20px;"><b>โรงเรียน</b></label>
+                                        <div class="col-auto">
+                                        <input type="text" class="form-control" id="inputPassword" style="font-size: 20px;font-weight: bold;" v-model="school">
+                                        </div>
+                                        <div class="col-auto" style="width: 10rem;">
+                                            <input type="text" class="form-control" style="font-size: 20px;font-weight: bold;" value="สุโขทัย">
+                                        </div>
+
+                                    </div>
                                 </div>
-                              </div>
-                              <div class="sm-3 row">
+
+                                <div class="mb-3 row justify-content-center align-items-center">
+                                    <div class="row">
+
+                                        <label for="inputPassword" class="col-sm-2 col-form-label" style="font-size: 20px;color:black"><b>สาขา</b></label>
+                                        <div style="width: 28.9rem;">
+                                            <input type="text" class="form-control" id="inputPassword" style="font-size: 20px;font-weight: bold;" value="วิทยาการคอมพิวเตอร์">
+                                        </div>
+
+                                    </div>
+                                </div>
+                            <div class="sm-3 row">
                                 <div class="md-3 d-md-flex justify-content-md-end">
-                                    <a class="btn btn-outline-primary me-md-3 btn-lg" href="/sop.html">สมัครสมาชิก</a>
-                                    <div style="width: 5rem"></div>
+                                    <a class="btn btn-outline-primary me-md-3 btn-lg" style="width: 28rem;" href="/sop.html">สมัคร</a>
+                                    <div style="width: 2rem"></div>
                                   </div>
-                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
             </div>
 
             <div class="container d-flex" style="height: 2rem;"></div>

@@ -1,0 +1,64 @@
+{
+    "data": [
+        {
+            "name_cerfitication":"เก็บเงินได้ 500 บาท",
+            "img":"/images/cerfication/",
+            "abot":"ในตอนผมเรียนอยู่ ม.1 ผมได้เก็บเงินได้จำนวน 500บาท นำส่งครูเพื่อนไปคืนเจ้าของ"
+        },
+        {
+            "name_cerfitication":"ค่ายคุณธรรม ม.6",
+            "img":"/images/cerfication/",
+            "abot":"ได้เข้าค่ายอบรมคุณธรรม ของระดับชั้น ม.6 โดยได้รับความรู้เรื่องพุทธศาสนา"
+        },
+        {
+            "name_cerfitication":"การเป็นผลเมืองอินเทอร์เน็ต",
+            "img":"/images/cerfication/",
+            "abot":"ได้เข้าอบรมออนไลน์เรื่องการใช้อินเทอร์ที่ถูกต้อง การเป็นผลเมืองดีภายในโลกอินเทอร์เน็ตได้เรียนรู้เรื่อง cyber bullying"
+        },
+        {
+            "name_cerfitication":"บริจาคประสบการณ์",
+            "img":"/images/cerfication/",
+            "abot":"ได้บริจาคประสบการณ์ให้กับแชทบอทเป็นแชร์ต่อประสบการณ์ที่พบเจอเพื่อให้กำลังใจซึ่งกันและกัน"
+        },
+        {
+            "name_cerfitication":"ศิลปหัตถกรรมนักเรียน",
+            "img":"/images/cerfication/",
+            "abot":"ได้เข้าร่วมงานศิลปหัตกรรมนักเรียนโดยได้เข้าแข่งขันโครงงานคอมพิวเตอร์ประเภทซอฟต์แวร์ในระดับเขตพื้นที่การศึกษา ได้อันดับรองชนะเลิศอันดับที่ 1"
+        },
+        {
+            "name_cerfitication":"Gamer To Coder",
+            "img":"/images/cerfication/",
+            "abot":"ได้เข้าร่วมโครงการ Gamer To Coder ของ การีน่า เป็นโครงการอบรมการพัฒนาเว็ปไซต์โดยได้เรียนรู้ในเรื่องการออกแบบ การเขียนภาษา golang"
+        },
+        {
+            "name_cerfitication":"Born to Dev (Dev Lab 3)",
+            "img":"/images/cerfication/",
+            "abot":"ได้ผ่านการฝึกแก้โจทย์ Algorithm ในเว็ป Dev Lab 3 ของ Born to Dev ด้วยภาษา Python จำนวน 32ข้อ ได้คะแนนรวม 3670 คะแนน อับดับที่ 1360 จากผู้ใช้งานเว็ป 14862 คน"
+        },
+        {
+            "name_cerfitication":"Back-end ระดับกลาง",
+            "img":"/images/cerfication/",
+            "abot":"ได้ผ่านการอบรมออนไลน์ในโครงการ HackaThailand ของ สำนักงานเศรษฐกิจดิจิทัล เป็นการเรียนรู้การใช้งาน Node.js ที่เป็น Framework ของภาษา Javascript ในการพัฒนา Back-end เบื้องต้น"
+        },
+        {
+            "name_cerfitication":"Python สำหรับวิทยาการคำนวณ",
+            "img":"/images/cerfication/",
+            "abot":"ได้ผ่านการอบรมออนไลน์บนเว็ป Thaimooc ในเรื่องการเขียนภาษา Python เบื้องต้น โดยเป็นคำสั่งพื้นฐานต่าง ๆ"
+        },
+        {
+            "name_cerfitication":"Responsive Web",
+            "img":"/images/cerfication/",
+            "abot":"ได้ผ่านการอบรมออนไลน์บนเว็ป Thaimooc ในเรื่องพัฒนาหน้าเว็ปหน้ารองรับหลายอุปกรณ์ด้วย Bootstrap ที่เป็น CSS Framework ในการออกแบบหน้าเว็ปไซต์"
+        },
+        {
+            "name_cerfitication":"การสร้างหน้าเว็ปเบื้องต้น",
+            "img":"/images/cerfication/",
+            "abot":"ได้ผ่านการอบรมออนไลน์บนเว็ป Thaimooc ในเรื่องการเขียน HTML และ CSS เบื้องต้น ได้เรียนรู้ใน Tag พื้นฐานต่าง ๆ และการเขียน CSS พื้นฐาน"
+        },
+        {
+            "name_cerfitication":"ความมั่นคงปลอดภัยคอมพิวเตอร์",
+            "img":"/images/cerfication/",
+            "abot":"ได้ผ่านการอบรมออนไลน์บนเว็ป PSU MOOC ในเรื่อง Security ต่าง ๆ ได้เรียนรู้หลักการทำงานของระบบความปลอดภัยต่าง ๆ รูปแบบการเข้ารหัส RSA AES ต่าง ๆ HTTP และ HTTPS protocol"
+        }
+    ]
+}

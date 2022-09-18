@@ -5,7 +5,7 @@ createApp({
     data() {
         return {
             name: 'Poftfolio',
-            myname: 'นายกรฤต แสงทอง',
+            myname: 'กรฤต แสงทอง',
             school: 'สวรรค์อนันต์วิทยา',
             me_data: ''
         }

@@ -19,6 +19,9 @@
         <!-- boortstrap icon-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css" integrity="sha512-5PV92qsds/16vyYIJo3T/As4m2d8b6oWYfoqV+vtizRB6KhF1F9kYzWzQmsO6T3z3QG2Xdhrx7FQ+5R1LiQdUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+        <!-- icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
         <!-- vue -->
         <script src="https://unpkg.com/vue@3"></script>
         <style>
@@ -32,11 +35,6 @@
             body {
                 font-family: 'kanchastayregular';
 
-                background-image: url(https://cdn.wallpapersafari.com/97/50/eRwDMy.jpg);
-                background-position: center center;
-                background-repeat: no-repeat;
-                background-attachment: fixed;
-                background-size: cover;
             }
         </style>
     </head>
@@ -51,19 +49,19 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-bookmark-fill"></i> SOP</a>
+                        <a class="nav-link active" aria-current="page" href="#">SOP</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/history.html"><i class="bi bi-book-fill"></i> ประวัติส่วนตัว</a>
+                        <a class="nav-link" aria-current="page" href="/history.html">ประวัติส่วนตัว</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/certificate.html"><i class="bi bi-patch-check-fill"></i> เกียรติบัตร</a>
+                        <a class="nav-link" aria-current="page" href="/activity.html">กิจกรรม/ผลงาน</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/activity.html"><i class="bi bi-activity"></i> กิจกรรม</a>
+                        <a class="nav-link" aria-current="page" href="/certificate.html">เกียรติบัตร</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/work.html"><i class="bi bi-file-earmark-code-fill"></i> ผลงาน</a>
+                        <a class="nav-link" aria-current="page" href="/work.html">ผลงาน</a>
                     </li>
                     </ul>
                 </div>
@@ -74,10 +72,10 @@
 
             <!-- data-->
             <div class="container d-flex justify-content-center">
-                <div class="card mb-3" style="width: 50rem;">
-                    <div class="card-header text-bg-primary"><b>•&nbsp;•&nbsp;•&nbsp;&nbsp;แนะนำตัว</b></div>
-                    <div class="card-body text-bg-dark">
-                    <p style="font-size: 20px; text-align:justify">&emsp;&emsp;{{ introduction }}</p>
+                <div class="card mb-3" style="width: 50rem;background-color: #000000;">
+                    <div class="card-header" style="font-size: 18px;background-color: #639eff;color: #000000;"><b><i class="fa-solid fa-circle" style="color: #ff5858;"></i>&nbsp;<i class="fa-solid fa-circle" style="color: #ff8e3b;"></i>&nbsp;<i class="fa-solid fa-circle" style="color: #26e600;"></i>&nbsp;&nbsp;แนะนำตัว</b></div>
+                    <div class="card-body">
+                    <p style="font-size: 20px; text-align:justify;color: #ffffff">&emsp;&emsp;{{ introduction }}</p>
                     </div>
                 </div>
             </div>
@@ -85,10 +83,10 @@
             <div class="container d-flex justify-content-center" style="height: 2rem;"></div>
 
             <div class="container d-flex justify-content-center">
-                <div class="card mb-3" style="width: 50rem;">
-                    <div class="card-header text-bg-primary"><b>•&nbsp;•&nbsp;•&nbsp;&nbsp;เหตุผลที่อยากเรียนสาขานี้</b></div>
-                    <div class="card-body text-bg-dark">
-                    <p style="font-size: 20px;text-align:justify">&emsp;&emsp;{{ intro_course }}</p>
+                <div class="card mb-3" style="width: 50rem;background-color: #000000;">
+                    <div class="card-header" style="font-size: 18px;background-color: #639eff;"><b><i class="fa-solid fa-circle" style="color: #ff5858;"></i>&nbsp;<i class="fa-solid fa-circle" style="color: #ff8e3b;"></i>&nbsp;<i class="fa-solid fa-circle" style="color: #26e600;"></i>&nbsp;&nbsp;เหตุผลที่อยากเรียนสาขานี้</b></div>
+                    <div class="card-body">
+                    <p style="font-size: 20px;text-align:justify;color: #ffffff">&emsp;&emsp;{{ intro_course }}</p>
                     </div>
                 </div>
             </div>
@@ -96,10 +94,10 @@
             <div class="container d-flex justify-content-center" style="height: 2rem;"></div>
 
             <div class="container d-flex justify-content-center">
-                <div class="card mb-3" style="width: 50rem">
-                    <div class="card-header text-bg-primary"><b>•&nbsp;•&nbsp;•&nbsp;&nbsp;เหตุผลที่อยากเข้ามหาวิทยาลัยนี้</b></div>
-                    <div class="card-body text-bg-dark">
-                    <p style="font-size: 20px;text-align:justify">&emsp;&emsp;{{ intro_university }}</p>
+                <div class="card mb-3" style="width: 50rem;background-color: #000000;">
+                    <div class="card-header" style="font-size: 18px;background-color: #639eff;"><b><i class="fa-solid fa-circle" style="color: #ff5858;"></i>&nbsp;<i class="fa-solid fa-circle" style="color: #ff8e3b;"></i>&nbsp;<i class="fa-solid fa-circle" style="color: #26e600;"></i>&nbsp;&nbsp;เหตุผลที่อยากเข้ามหาวิทยาลัยนี้</b></div>
+                    <div class="card-body">
+                    <p style="font-size: 20px;text-align:justify;color: #ffffff;">&emsp;&emsp;{{ intro_university }}</p>
                     </div>
                 </div>
             </div>
