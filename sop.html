@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+
+        </title>
+
+        <!-- font -->
+        <link rel="stylesheet" href="font/specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="font/stylesheet.css" type="text/css" charset="utf-8">
+
+        <!-- bootstrap 5.2 -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+
+        <!-- sweertalert -->
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+        <!-- boortstrap icon-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css" integrity="sha512-5PV92qsds/16vyYIJo3T/As4m2d8b6oWYfoqV+vtizRB6KhF1F9kYzWzQmsO6T3z3QG2Xdhrx7FQ+5R1LiQdUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- vue -->
+        <script src="https://unpkg.com/vue@3"></script>
+        <style>
+            .center_box{
+                position: fixed;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            body {
+                font-family: 'kanchastayregular';
+
+                background-image: url(https://cdn.wallpapersafari.com/97/50/eRwDMy.jpg);
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="sop_page">
+            <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="/">{{ name }}</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-bookmark-fill"></i> SOP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/history.html"><i class="bi bi-book-fill"></i> ประวัติส่วนตัว</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/certificate.html"><i class="bi bi-patch-check-fill"></i> เกียรติบัตร</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/activity.html"><i class="bi bi-activity"></i> กิจกรรม</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/work.html"><i class="bi bi-file-earmark-code-fill"></i> ผลงาน</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+
+            <div class="" style="height: 2rem;"></div>
+
+            <!-- data-->
+            <div class="container d-flex justify-content-center">
+                <div class="card mb-3" style="width: 50rem;">
+                    <div class="card-header text-bg-primary"><b>•&nbsp;•&nbsp;•&nbsp;&nbsp;แนะนำตัว</b></div>
+                    <div class="card-body text-bg-dark">
+                    <p style="font-size: 20px; text-align:justify">&emsp;&emsp;{{ introduction }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container d-flex justify-content-center" style="height: 2rem;"></div>
+
+            <div class="container d-flex justify-content-center">
+                <div class="card mb-3" style="width: 50rem;">
+                    <div class="card-header text-bg-primary"><b>•&nbsp;•&nbsp;•&nbsp;&nbsp;เหตุผลที่อยากเรียนสาขานี้</b></div>
+                    <div class="card-body text-bg-dark">
+                    <p style="font-size: 20px;text-align:justify">&emsp;&emsp;{{ intro_course }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container d-flex justify-content-center" style="height: 2rem;"></div>
+
+            <div class="container d-flex justify-content-center">
+                <div class="card mb-3" style="width: 50rem">
+                    <div class="card-header text-bg-primary"><b>•&nbsp;•&nbsp;•&nbsp;&nbsp;เหตุผลที่อยากเข้ามหาวิทยาลัยนี้</b></div>
+                    <div class="card-body text-bg-dark">
+                    <p style="font-size: 20px;text-align:justify">&emsp;&emsp;{{ intro_university }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/backend_sop.js"></script>
+    </body>
+</html>
